@@ -1,0 +1,106 @@
+.mintwx-card {
+    width: 348px;
+    min-height: 129px;
+    padding: 16px;
+    spacing: 11px;
+    color: #f5faff;
+    border: 1px solid rgba(224, 246, 253, 0.52);
+    border-radius: 21px;
+    box-shadow: 0 6px 20px rgba(2, 9, 17, 0.26);
+    font-family: SF Pro Text, Inter, sans-serif;
+}
+.mintwx-body { spacing: 9px; }
+.mintwx-header { spacing: 10px; }
+.mintwx-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 1px 4px #051319;
+}
+.mintwx-subtitle {
+    font-size: 12px;
+    color: #edfbff;
+    text-shadow: 0 1px 3px #051319;
+}
+.mintwx-location { spacing: 2px; }
+.mintwx-hero { spacing: 7px; padding-top: 1px; }
+.mintwx-readout { spacing: 2px; }
+.mintwx-temp {
+    font-size: 49px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 2px 5px #071519;
+}
+.mintwx-condition {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 1px 4px #051319;
+}
+.mintwx-muted, .mintwx-observation {
+    font-size: 11px;
+    color: #ecfbff;
+    text-shadow: 0 1px 3px #061218;
+}
+.mintwx-metrics, .mintwx-metric-row, .mintwx-days, .mintwx-links, .mintwx-detail-tabs { spacing: 6px; }
+.mintwx-metric, .mintwx-day, .mintwx-detail {
+    background-color: rgba(4, 20, 27, 0.30);
+    border: 1px solid rgba(220, 251, 251, 0.26);
+    border-radius: 11px;
+}
+.mintwx-metric { width: 147px; padding: 5px 9px; spacing: 2px; }
+.mintwx-metric-value {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 1px 4px #061218;
+}
+.mintwx-forecast-header {
+    padding-top: 9px;
+    spacing: 6px;
+    border-top: 1px solid rgba(228, 250, 252, 0.38);
+}
+.mintwx-section {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 1px 3px #061218;
+}
+.mintwx-day {
+    width: 96px;
+    padding: 7px 6px;
+    spacing: 3px;
+}
+.mintwx-day-title, .mintwx-day-temp {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 1px 3px #061218;
+}
+.mintwx-day-condition {
+    font-size: 11px;
+    min-height: 25px;
+    color: #effaff;
+    text-shadow: 0 1px 3px #061218;
+}
+.mintwx-detail { padding: 8px; spacing: 5px; }
+.mintwx-period {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 1px 3px #061218;
+}
+.mintwx-action {
+    border: 1px solid rgba(228, 251, 250, 0.32);
+    border-radius: 9px;
+    padding: 6px 8px;
+    color: #ffffff;
+    background-color: rgba(3, 19, 26, 0.40);
+}
+.mintwx-action:hover, .mintwx-action:focus, .mintwx-selected {
+    border-color: rgba(229, 254, 253, 0.88);
+    background-color: rgba(13, 69, 73, 0.75);
+}
+.mintwx-small-label { font-size: 11px; font-weight: bold; }
+.mintwx-source { padding: 3px 0; }
+.mintwx-source:hover, .mintwx-source:focus { text-decoration: underline; }

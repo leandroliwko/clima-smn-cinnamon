@@ -1,0 +1,8 @@
+{
+    "uuid": "mint-weather@liwko",
+    "name": "Mint Widgets — Clima SMN",
+    "description": "Clima actual y pronóstico de tres días, con localidad argentina configurable.",
+    "version": "1.2.0",
+    "max-instances": 1,
+    "prevent-decorations": true
+}

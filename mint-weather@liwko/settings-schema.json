@@ -1,0 +1,49 @@
+{
+    "localidad": {
+        "type": "header",
+        "description": "Localidad (Argentina)"
+    },
+    "buscar-localidad": {
+        "type": "entry",
+        "default": "",
+        "description": "Buscar localidad",
+        "tooltip": "Escribí el nombre (por ejemplo: Córdoba, Córdoba). Elegí el resultado en el widget. La localidad actual se mantiene hasta que elijas otra."
+    },
+    "localidad-elegida": {
+        "type": "generic",
+        "default": "{\"id\": \"pinamar\", \"name\": \"Pinamar\", \"province\": \"Buenos Aires\", \"lat\": -37.1146, \"lon\": -56.8685}"
+    },
+    "apariencia": {
+        "type": "header",
+        "description": "Apariencia"
+    },
+    "color-vidrio": {
+        "type": "colorchooser",
+        "default": "#249e96",
+        "description": "Color del vidrio"
+    },
+    "transparencia-vidrio": {
+        "type": "scale",
+        "default": 55,
+        "min": 0,
+        "max": 95,
+        "step": 1,
+        "units": "%",
+        "description": "Transparencia del vidrio"
+    },
+    "desenfocar-fondo": {
+        "type": "switch",
+        "default": false,
+        "description": "Desenfocar el fondo"
+    },
+    "animar-iconos": {
+        "type": "switch",
+        "default": true,
+        "description": "Animar los iconos del tiempo"
+    },
+    "repetir-busqueda": {
+        "type": "button",
+        "description": "Buscar nuevamente",
+        "callback": "queueSearch"
+    }
+}
